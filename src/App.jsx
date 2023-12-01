@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <Navbar></Navbar> */}
       <Routes>
-        <Route path="/" element={user ? <Dashboard /> : <Login />} />
+        <Route path="/" element={user ? <Dashboard /> : <Register />} />
         <Route path="/register" element={<Register />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="*" element= {<Navigate to="/"/>} />

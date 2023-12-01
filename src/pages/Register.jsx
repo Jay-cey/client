@@ -81,7 +81,9 @@ const Register = () =>{
               <div>{registerError?.message}</div>
             )
           }
-
+          <div>
+            <p className='text-sm'>Have an account? <Link to='/login' className='text-[#F48352]'>Log in</Link></p>
+          </div>
           <div>
             <p className='text-sm'>By joining, you agree to the Terms and Privacy Policy.</p>
           </div>
