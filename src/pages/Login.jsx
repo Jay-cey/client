@@ -65,7 +65,7 @@ const Login = () => {
           }
 
           <div>
-            <p className='text-sm'>Don’t have an account yet? <Link href='/register' className='text-[#F48352]'>Sign Up</Link></p>
+            <p className='text-sm'>Don’t have an account yet? <Link to='/register' className='text-[#F48352]'>Sign Up</Link></p>
           </div>
         </section>
 </>
